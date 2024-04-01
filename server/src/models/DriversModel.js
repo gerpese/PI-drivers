@@ -14,28 +14,31 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-      surname: {
+      surename: {
       type: DataTypes.STRING,
       allowNull: false,
     },
       description: {
       type: DataTypes.STRING,
-      allowNull: false,
+      //allowNull: false,
     },
       image: {
       type: DataTypes.STRING,
-      allowNull: false,
+      //allowNull: false,
     },
-      nacionality:{
+      nationality:{
       type: DataTypes.STRING,
-      allowNull: false, 
+      //allowNull: false, 
     },
       birthday:{
       type: DataTypes.DATE,
-      allowNull: false, 
+      //allowNull: false, 
     },
+    created:{
+      type: DataTypes.BOOLEAN,
+      //allowNull: true, 
+    }, 
   },
       {timestamps: false}
   );
 };
-

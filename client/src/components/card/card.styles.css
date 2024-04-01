@@ -1,0 +1,21 @@
+
+.card-container {
+    background-color: orange;
+    border-radius: 8px;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transition: transform 0.25s ease-out;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
